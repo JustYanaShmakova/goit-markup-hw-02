@@ -1,9 +1,10 @@
+/* General */
 .body {
     color: #2E2F42;
     font-family: 'Roboto';
 }
-
 .header {
+    border: 1px solid #E7E9FC;
 }
 .nav {
 }
@@ -13,14 +14,12 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
-
 .nav .text-logo {
     text-transform: uppercase;
     text-decoration: none
 }
-
 .span {
     color: #4D5AE5;
     text-transform: uppercase;
@@ -47,7 +46,7 @@
 .address-item {
     
 }
-.adress-link {
+.address-link {
     color: #434455;
     font-family: 'Roboto';
     font-style: normal;
@@ -56,6 +55,31 @@
     line-height: 1.5;
     text-decoration: none
 }
+.footer {
+    background-color: #2E2F42;
+}
+.footer-text-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;
+}
+.footer .footer-text-logo {
+    text-transform: uppercase;
+    text-decoration: none
+}
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+}
+
+/* For index */
 .hero {
     background-color: #2E2F42;
 }
@@ -66,6 +90,7 @@
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
 }   
 .hero-btn {
     color: #FFFFFF;
@@ -75,6 +100,7 @@
     font-size: 16px;
     line-height: 1,5;
     background-color: #4D5AE5;
+    text-align: center
 }
 
 .about {
@@ -154,28 +180,51 @@
     color: #434455;
     }
 
-.footer {
-    background-color: #2E2F42;
+/* For portfolio */
+.portfolio-hero {
 }
-.footer-text-logo {
-    font-family: 'Raleway';
+.portfolio-hero-title {
+}
+.portfolio-hero-list {
+    list-style-type: none;
+}
+.portfolio-hero-item {
+}
+.portfolio-hero-btn {
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
-
-.footer .footer-text-logo {
-    text-transform: uppercase;
-    text-decoration: none
+.projects {
 }
-
-.footer-text {
+.projects-list {
+    list-style-type: none;
+}
+.projects-item {
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+.projects-img {
+}
+.projects-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.projects-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #E7E9FC;
+    color: #434455;
 }
