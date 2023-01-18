@@ -13,7 +13,9 @@
 
 body {
     color: var(--navy-blue-color);
-    font-family: 'Roboto'; sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: white;
 }
 
 .visually-hidden {
@@ -63,7 +65,6 @@ body {
 .nav-link {
     color: var(--navy-blue-color);
     font-weight: 500;
-    font-size: 16px;
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     text-decoration: none  
@@ -71,8 +72,7 @@ body {
 
 .nav-link:hover, 
 .nav-link:focus {
-    color: var(--ocean-color); 
-    text-decoration: underline  
+    color: var(--ocean-color);  
 }
 
 .address-link:hover,
@@ -162,14 +162,14 @@ body {
 .about-item {
 }
 
-.about-title {
+.section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.about-text {
+.section-text {
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: var(--slate-color);
@@ -178,7 +178,7 @@ body {
 .types {
 }
 
-.types-title {
+.section-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -200,14 +200,6 @@ body {
     background: var(--cloud-color)
 }
 
-.team-toptitle {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
 .team-list {
     list-style-type: none;
 }
@@ -217,19 +209,6 @@ body {
 
 .team-img {
 }
-
-.team-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.team-text {
-    line-height: var(--typical-lh);
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
-    }
 
 /* For portfolio */
 
@@ -271,26 +250,22 @@ body {
 .projects {
 }
 
-.projects-list {
-    list-style-type: none;
-}
 
-.projects-item {
-    background: var(--white-color);
+.portfolio-hero-item {
     border: 1px solid var(--cornflower-color);
 }
 
 .projects-img {
 }
 
-.projects-title {
+.portfolio-hero-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
 }
 
-.projects-text {
+.portfolio-hero-text {
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: var(--slate-color);
